@@ -1,0 +1,10 @@
+#include "remote.h"
+int main() {
+    Remote controler;
+    controler.Register();
+    controler.on_company();
+    controler.on_company();
+    controler.off_company();
+    controler.off_company();
+    return 0;
+}
